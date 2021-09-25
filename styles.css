@@ -1,3 +1,5 @@
+/** allow for a fixed background on body **/
+
 body {
     background-image: url("https://wallpapercave.com/wp/wp7064202.jpg");
     background-attachment: fixed;
@@ -22,17 +24,19 @@ ul {
     flex-wrap: wrap;
     gap: 1em;
 }
+/** default color for main header **/
 h1 {
     font-size: 60px;
     text-align: center;
     color: #afafaf;
 }
+/** default color for main subheader **/
 h2 {
     font-size: 30px;
     text-align: center;
     color: #afafaf;
 }
-
+/** div class for bio **/
 .bio {
     /**background: radial-gradient(#03afee, #53cfee);**/
     background: radial-gradient(#1fab71, #13afba);
@@ -41,6 +45,7 @@ h2 {
     border-radius: 10px;
     max-width: 600px;
 }
+/** div class for work **/
 .job {
     background: radial-gradient(#efab70, #f9f97a);
     padding: 20px;
@@ -49,6 +54,7 @@ h2 {
     border-radius: 10px;
     max-width: 1000px;
 }
+/** class for projects **/
 .project {
     background: radial-gradient(#7ff98a, #4feb90);
     padding: 20px;
@@ -57,28 +63,7 @@ h2 {
     border-radius: 10px;
     max-width: 1000px;
 }
+/** custom coloring for links **/
 a {
     color: green;
-}
-.card1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 200px;
-    max-width: 400px;
-    background: radial-gradient(#1fab71, #13afba);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-}
-.card2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 200px;
-    max-width: 400px;
-    background: radial-gradient(#1fab71, #13afba);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 6px 10px rgba(20, 15, 15, 0.25);
 }
