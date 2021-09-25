@@ -1,9 +1,9 @@
 body {
-    background-image: url("https://mlpforums.com/uploads/monthly_01_2013/post-11271-0-67709400-1357371679.jpg");
+    background-image: url("https://th.bing.com/th/id/R.355ec8101e382f91b017cddf2eb4e938?rik=hIk%2bBzJDCkl0lQ&pid=ImgRaw&r=0");
     background-attachment: fixed;
     /** 
     https://th.bing.com/th/id/R.355ec8101e382f91b017cddf2eb4e938?rik=hIk%2bBzJDCkl0lQ&pid=ImgRaw&r=0
-    
+    https://mlpforums.com/uploads/monthly_01_2013/post-11271-0-67709400-1357371679.jpg
     https://wallpapercave.com/wp/wp7064202.jpg
     **/
 }
@@ -13,7 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+
 }
 .container {
     width: 100vw;
@@ -23,15 +23,31 @@ ul {
     gap: 1em;
 }
 h1 {
-    font-size: 69px;
+    font-size: 60px;
     text-align: center;
-    color: white;
+    color: #afafaf;
 }
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #afafaf;
+}
+
 .bio {
-    background: radial-gradient(#03afee, #53cfee);
+    /**background: radial-gradient(#03afee, #53cfee);**/
+    background: radial-gradient(#1fab71, #13afba);
     padding: 20px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    max-width: 600px;
+}
+.job {
+    background: radial-gradient(#efab70, #f9f97a);
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    max-width: 1000px;
 }
 
 
